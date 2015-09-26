@@ -1,0 +1,71 @@
+body
+{
+    background-color: #2d9fff;    
+}
+
+div
+{
+    color: #ffffff;
+    font-size: 80px;
+    font-family:aspergit;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face
+{
+    font-family: aspergit;
+    src:url(Aspergit.otf);
+}
+
+.name
+{
+    margin-top: 150px;
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.name:hover .nick
+{
+    transform: translate(0px,-80px);
+}
+
+.name:hover .realName
+{
+    transform: translate(0px,-80px);
+}
+
+.nick
+{
+    transition: all 0.5s;
+    position: relative;
+}
+
+.realName
+{
+    transition: all 0.5s;
+    position: relative;
+}
+
+img
+{
+    transition: all 0.5s;
+    height: 32px;
+}
+
+img:hover
+{
+    transform: scale(1.2);   
+}
+
+.line
+{
+    border-top: 2px solid #ffffff;
+}
+
+.icons
+{
+    margin-top:20px;
+}
