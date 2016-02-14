@@ -1,11 +1,11 @@
 body
 {
+    color: #ffffff;
     background-color: #2d9fff;    
 }
 
 div
 {
-    color: #ffffff;
     font-size: 80px;
     font-family:aspergit;
     max-width: 750px;
@@ -68,4 +68,36 @@ img:hover
 .icons
 {
     margin-top:20px;
+}
+
+.top {
+  float:left;
+  position: fixed;
+  top: 0;
+  left: 50px;
+}
+
+.top-elem {
+  font-size: 22px;
+  font-family: arial;
+  color: #2d9fff;
+  background-color: #ffffff;
+  min-width: 120px;
+  height: 35px;
+  border-radius: 0px 0px 10px 10px;
+  text-align:center;
+  padding: 10px 10px 5px 10px;
+  transition: all 0.5s;
+}
+
+.top-elem:hover {
+  padding-top: 25px;
+  height: 50px;
+  transition: all 0.5s;
+}
+
+a {
+  font-family: aspergit;
+  color: #ffffff;
+  text-decoration: none;
 }
